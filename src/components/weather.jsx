@@ -30,7 +30,7 @@ const Weather = (props) => (
 			</p>
 		)}
 		{props.icon &&(
-			<img className="icon" src ={`http://openweathermap.org/img/w/${props.icon}.png`} alt=""/>
+			<img className="icon" src ={`${props.icon}`} alt=""/>
 		)}
 		{props.error && <p className="error">{props.error}</p>}
 	</div>

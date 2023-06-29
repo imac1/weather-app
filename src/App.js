@@ -23,7 +23,7 @@ function App() {
 		const country = e.target.elements.country.value;
 		const response = await fetch(
 			// `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`
-			`https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${'London'}&days=1&aqi=no&alerts=no`
+			`https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city},${country}&days=1&aqi=no&alerts=no&units=metric`
 		);
 		const data = await response.json();
 		if (city && country) {

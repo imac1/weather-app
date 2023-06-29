@@ -37,6 +37,7 @@ input {
   margin-right: 20px;
   font-size: 20px;
   outline: none;
+  
 }
 
 
@@ -79,4 +80,9 @@ button {
   color: #312f2fa2;
   font-size: 20px;
   letter-spacing: 1px;
+}
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: red;
 }

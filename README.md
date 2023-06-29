@@ -96,7 +96,7 @@ Now you can go further and create your own web based Weather application!
     - Assign a nice background image to the chosen city that fits nicely to the site and apply it on the background. You can create object which store city name and image url.
     - You can use Pexels API to get image for chosen city dynamically. Read the official [Pexels API Documentation](https://www.pexels.com/api/documentation).
     - Generate a free API key from in order to access the Pexels API.
-    - Use presented endpoint to get image for chosen city e.g. for Krakow: https://api.pexels.com/v1/search?query=Krakow ![Weather App Pexels API in Postman](media/frontend/weather-app.png)
+    - Use presented endpoint to get image for chosen city e.g. for Krakow: <https://api.pexels.com/v1/search?query=Krakow> ![Weather App Pexels API in Postman](media/frontend/weather-app.png)
 
 ## General requirements
 
