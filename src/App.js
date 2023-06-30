@@ -84,7 +84,7 @@ function App() {
       style={{
         backgroundImage: state.backgroundImage
           ? `url(${state.backgroundImage})`
-          : "none",
+          : "block",
       }}
     >
       <div className="main">
