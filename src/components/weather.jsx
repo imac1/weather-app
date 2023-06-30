@@ -1,7 +1,7 @@
 import React from "react";
 
 const Weather = (props) => (
-	<div className="info">
+	<div className="info"  class='flex flex-col p-4 border '>
 		{props.city && props.country && (
 			<p className="key">
 				Location:
@@ -30,7 +30,7 @@ const Weather = (props) => (
 			</p>
 		)}
 		{props.icon &&(
-			<img className="icon" src ={`${props.icon}`} alt=""/>
+			<img className="icon" src ={`${props.icon}`} alt="" class='w-12 h-12 '/>
 		)}
 		{props.error && <p className="error">{props.error}</p>}
 	</div>
